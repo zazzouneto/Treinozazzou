@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano de Treino - Barra e Halteres</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;color:#222}
+    .wrap{max-width:1200px;margin:0 auto;padding:20px}
+    h1,h2,h3,p{margin:0}
+    .top{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-bottom:18px}
+    .card{background:#fff;border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+    .mini h2{font-size:28px;color:#222;margin-bottom:10px}
+    .mini ul{padding-left:20px;line-height:1.7;margin:0}
+    .bike{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;background:#fff;border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+    .bike .km{font-size:70px;font-weight:800;line-height:1}
+    .bike .sub{font-size:28px;color:#c62828;font-weight:700;margin-top:6px}
+    .bike .icon{font-size:90px;margin-top:8px}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .day h2{font-size:26px;color:#b71c1c;margin-bottom:14px;text-align:center}
+    .exs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .ex{border:1px solid #eee;border-radius:12px;padding:12px;text-align:center;background:#fafafa;min-height:150px;display:flex;flex-direction:column;justify-content:flex-start}
+    .icon{font-size:42px;line-height:1;margin-bottom:8px}
+    .name{font-weight:700;font-size:18px;margin-bottom:6px}
+    .rep{font-size:16px;color:#444}
+    .foot{margin-top:18px;background:#fff;border-radius:14px;padding:16px;box-shadow:0 4px 14px rgba(0,0,0,.08);font-size:16px;line-height:1.6}
+    .tag{display:inline-block;background:#ffe7e7;color:#9b1c1c;border-radius:999px;padding:4px 10px;font-size:13px;font-weight:700;margin-bottom:10px}
+    @media (max-width:900px){.top,.grid{grid-template-columns:1fr}.exs{grid-template-columns:repeat(2,1fr)}.bike .km{font-size:56px}}
+    @media (max-width:620px){.exs{grid-template-columns:1fr}.mini h2,.day h2{font-size:22px}.bike .km{font-size:46px}.bike .sub{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="card mini">
+        <div class="tag">Faça isso ao acordar todos os dias</div>
+        <h2>Rotina diária</h2>
+        <ul>
+          <li>20 flexões</li>
+          <li>1 minuto de prancha</li>
+          <li>1 minuto de prancha lateral</li>
+          <li>50 escaladores</li>
+          <li>50 polichinelos</li>
+          <li>50 agachamentos livres</li>
+          <li>20 agachamentos com halter leve acima da cabeça</li>
+        </ul>
+      </div>
+      <div class="bike">
+        <div class="km">15km</div>
+        <div class="sub">Todo dia</div>
+        <div class="icon">🚴</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card day">
+        <h2>Dia 1: peito e tríceps</h2>
+        <div class="exs">
+          <div class="ex"><div class="icon">🏋️</div><div class="name">Supino com barra</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">💪</div><div class="name">Supino inclinado c/ halteres</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">👐</div><div class="name">Crucifixo com halteres</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">⚡</div><div class="name">Tríceps testa</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🔩</div><div class="name">Tríceps francês</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🔒</div><div class="name">Supino fechado</div><div class="rep">3x 8 a 12</div></div>
+        </div>
+      </div>
+
+      <div class="card day">
+        <h2>Dia 2: costas e bíceps</h2>
+        <div class="exs">
+          <div class="ex"><div class="icon">↘️</div><div class="name">Remada curvada com barra</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">🧲</div><div class="name">Remada unilateral</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">🫁</div><div class="name">Pullover com halter</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">📏</div><div class="name">Rosca direta com barra</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">🔨</div><div class="name">Rosca martelo</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🎯</div><div class="name">Rosca concentrada</div><div class="rep">3x 10 a 12</div></div>
+        </div>
+      </div>
+
+      <div class="card day">
+        <h2>Dia 3: perna completa</h2>
+        <div class="exs">
+          <div class="ex"><div class="icon">🏋️‍♂️</div><div class="name">Agachamento com barra</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">🪑</div><div class="name">Agachamento goblet</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🚶</div><div class="name">Avanço com halteres</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🦵</div><div class="name">Terra romeno</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">⬆️</div><div class="name">Hip thrust com barra</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🦶</div><div class="name">Panturrilha em pé</div><div class="rep">4x 15 a 20</div></div>
+        </div>
+      </div>
+
+      <div class="card day">
+        <h2>Dia 4: ombro isolado</h2>
+        <div class="exs">
+          <div class="ex"><div class="icon">⬆️</div><div class="name">Desenvolvimento</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">↔️</div><div class="name">Elevação lateral</div><div class="rep">3x 10 a 15</div></div>
+          <div class="ex"><div class="icon">⤴️</div><div class="name">Elevação frontal</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🔄</div><div class="name">Crucifixo inverso</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🪨</div><div class="name">Encolhimento</div><div class="rep">3x 10 a 15</div></div>
+          <div class="ex"><div class="icon">⏱️</div><div class="name">Descanso 60-90s</div><div class="rep">entre séries</div></div>
+        </div>
+      </div>
+
+      <div class="card day" style="grid-column:1 / -1;">
+        <h2>Dia 5: bíceps e tríceps</h2>
+        <div class="exs">
+          <div class="ex"><div class="icon">📏</div><div class="name">Rosca direta com barra</div><div class="rep">3x 8 a 12</div></div>
+          <div class="ex"><div class="icon">🔨</div><div class="name">Rosca martelo</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🎯</div><div class="name">Rosca concentrada</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">⚡</div><div class="name">Tríceps testa</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🔩</div><div class="name">Tríceps francês</div><div class="rep">3x 10 a 12</div></div>
+          <div class="ex"><div class="icon">🔒</div><div class="name">Supino fechado</div><div class="rep">3x 8 a 12</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <strong>Observações:</strong> foco em progressão de carga, execução correta e constância. Se quiser, no próximo passo eu posso transformar esse mesmo plano em uma versão mais parecida com a imagem original, com ícones/exercícios desenhados e visual ainda mais bonito.
+    </div>
+  </div>
+</body>
+</html>
